@@ -67,7 +67,7 @@ $(function () {
       //   password: $('#formReg [name=password]').val(),
       //   repassword: $('#formReg [name=repassword]').val(),
       // }),
-      data:$(this).serialize(),
+      data: $(this).serialize(),
       success(res) {
         if (res.code !== 0) {
           return layer.msg(res.message)
