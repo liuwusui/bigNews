@@ -28,7 +28,10 @@ a{
 .userinfo img{
   width: 40px;
   height: 40px;
+  display: none;
+  /* 刷新时图片一闪而过 */
 }
+
 .text-avater{
   display: inline-block;
   width: 40px;
@@ -40,6 +43,7 @@ a{
   margin-right: 5px;
   color:#fff;
   font-weight: 700;
+  
 }
 .layui-footer{
   background-color: black!important;
