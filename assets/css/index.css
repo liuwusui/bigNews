@@ -2,37 +2,45 @@
   text-align: center;
   font-size: 12px;
 }
-.iconfont{
+
+.iconfont {
   padding-right: 8px;
 }
+
 .layui-icon {
   padding-right: 8px;
 }
+
 .layui-body {
   overflow: hidden;
 }
-.layui-body iframe{
+
+.layui-body iframe {
   width: 100%;
   height: 100vh;
   border: none;
+
 }
-a{
+
+a {
   transition: none !important;
 }
-.userinfo{
+
+.userinfo {
   height: 60px;
   text-align: center;
   line-height: 60px;
   user-select: none;
 }
-.userinfo img{
+
+.userinfo img {
   width: 40px;
   height: 40px;
   display: none;
   /* 刷新时图片一闪而过 */
 }
 
-.text-avater{
+.text-avater {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -41,14 +49,15 @@ a{
   line-height: 40px;
   /* vertical-align: middle; */
   margin-right: 5px;
-  color:#fff;
+  color: #fff;
   font-weight: 700;
-  
+
 }
-.layui-footer{
-  background-color: black!important;
+
+.layui-footer {
+  background-color: black !important;
   color: #fff;
   font-size: 16px;
   font-family: cursive;
-  font-weight:lighter;
+  font-weight: lighter;
 }
