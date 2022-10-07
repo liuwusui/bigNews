@@ -29,7 +29,7 @@ function getUserInfo() {
 const renderAvatar = function (res) {
   if (res.data.user_pic) {
     $('.text-avater').hide()
-    $('.userinfo img').css('src', res.data.user_pic).show()
+    $('.userinfo img').attr('src', res.data.user_pic).show()
   } else {
     $('.userinfo img').hide()
     const name = res.data.nickname || res.data.username
